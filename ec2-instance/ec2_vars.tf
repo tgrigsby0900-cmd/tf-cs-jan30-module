@@ -27,6 +27,6 @@ variable "region_ami_map" {
  }
 }
 
-variable "web_sg" {
+variable "Web_SG01" {
     type = list
 }
