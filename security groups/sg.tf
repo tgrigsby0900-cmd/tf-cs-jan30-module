@@ -27,7 +27,7 @@ to_port = 22
 ip_protocol = "tcp"
 cidr_ipv4 = "0.0.0.0/0"
 tags = {
-Name = "lab9-h􀆩p-rule-${var.project}"
+Name = "lab9-http-rule-${var.project}"
 }
 }
 # Security Group Rule - Allow all outbound
