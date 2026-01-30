@@ -14,9 +14,9 @@ resource "aws_instance" "vm01" {
   }
 }
 
-provider "aws" {
-region = "us-west-1"
-}
+#provider "aws" {
+#region = "us-west-1"
+#}
 module "Vms_app1" {
 #source = "./module/ec2-instance"
 source = "git::https://github.com/tgrigsby0900-cmd/tf-cs-jan30-module//ec2-instance?ref=main"
