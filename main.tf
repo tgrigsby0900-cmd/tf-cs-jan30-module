@@ -28,7 +28,7 @@ num_of_vm = 1
 env = "dev"
 }
 
-module "web_sg01" {
+module "Web_SG01" {
   source = "git::https://github.com/tgrigsby0900-cmd/tf-cs-jan30-module//ec2-instance?ref=main"
   project = user15
   vpc_id = data.aws_vpc.default.id
